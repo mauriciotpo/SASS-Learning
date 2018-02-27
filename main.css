@@ -42,6 +42,8 @@ section {
   cursor: pointer;
   display: block;
   margin: auto; }
+  .btn-1:hover {
+    background-color: #9933ff; }
 
 .btn-2 {
   padding: 15px;
@@ -53,5 +55,7 @@ section {
   cursor: pointer;
   display: block;
   margin: auto; }
+  .btn-2:hover {
+    background-color: #9933ff; }
 
 /*# sourceMappingURL=main.css.map */
