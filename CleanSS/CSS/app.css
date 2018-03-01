@@ -48,18 +48,39 @@
 }
 
 .pro-img {
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  -webkit-box-shadow: 0 0 8 #555555;
-  -moz-box-shadow: 0 0 8 #555555;
-  box-shadow: 0 0 8 #555555;
-  border: 1px solid #00aabd;
+  -webkit-box-shadow: 0 0 15px #555;
+  -moz-box-shadow: 0 0 15px #555;
+  box-shadow: 0 0 15px #555;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
   background-color: #00aabd;
   width: 22%;
   height: 120px;
   display: inline-block;
   margin: 15px;
+}
+
+.alert, .success, .warning, .oh-dang {
+  border: 1px solid #333333;
+  margin: 10px 0;
+  padding: 15px;
+  text-transform: uppercase;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.success {
+  background: #4caf50;
+}
+
+.warning {
+  background: #fc3;
+}
+
+.oh-dang {
+  background: red;
 }
 
 body {
